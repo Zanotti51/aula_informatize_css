@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class"container">
+        <form>
+
+            <label for="nome">Nome</label> 
+            <input id="nome"  name="nome" type="text">
+
+            <br>
+
+            <label for="idade">Idade</label>
+            <input id="idade" name="idade" type="number">
+
+            <label for="estado">Estado</label>
+            <Select name="estado" id="estado">
+                <option value="RS">Rio Grande Do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+            </Select>
+
+            <br>
+
+            <label for="Filhos">Possui filhos?</label>
+            <input type="checkbox" name="filhos" id="filhos">
+
+            <br>
+
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" id="nascimento" name="nascimento">
+
+            <br>
+            <label>Ganho mensal</label>
+            <label for="a">
+                menos de R$ 1,500
+                <input type="radio" name="salario" id="a">
+            </label>
+
+            <br>
+
+            <label for="b">
+                R$ 1.500
+                <input type="radio" name="salario" id="b">
+            </label>
+
+            <br>
+
+            <label for="c">
+                R$ 2000
+                <input type="radio" name="salario" id="c">
+            </label>
+
+            <br>
+
+            <label for="d">
+                + R$ 2000
+                <input type="radio" name="salario" id="d">
+            </label>
+            
+            <br>
+
+            <label for="observacao">Obsevação</label>
+            <textarea name="observacao"
+            id="observacao"
+            cols="30"
+            rows="10"></textarea>
+            
+            <br>
+            <footer>
+                <button type="button">Deletar</button>
+                <button type="reset">Limpar</button>
+                <button type="submit">Salvar</button>
+            </footer>
+
+        </form>
+    </div>
+</body>
+</html>

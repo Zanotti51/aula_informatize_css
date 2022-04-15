@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html, body{
+
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    /* escritas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+
+    padding: 1rem;
+    background: fixed;
+    background-color: aqua;
+    border: 1rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+figure{
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 0.25rem solid;
+
+    display: flex;
+}
+
+figure > img{
+    /* width: 100%;
+    height: 100%; */
+    flex:1
+
+}
+
+.info{
+    padding: 1rem 0;
+}
+
+.info > strong {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+}
+.info p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: aqua;
+}
